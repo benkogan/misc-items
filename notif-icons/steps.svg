@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2EE6A8"/><stop offset="1" stop-color="#0A8F8F"/></linearGradient>
+<radialGradient id="gl" cx="0.3" cy="0.2" r="0.8"><stop offset="0" stop-color="#fff" stop-opacity="0.30"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#04484a" flood-opacity="0.40"/></filter>
+<g id="foot">
+<path d="M0 0 C-70 0 -95 90 -88 170 C-82 240 -60 300 -55 350 C-50 400 -20 425 15 420 C55 414 70 380 62 330 C55 285 70 240 78 180 C90 85 70 0 0 0 Z"/>
+<ellipse cx="-30" cy="-78" rx="34" ry="42"/>
+<ellipse cx="38" cy="-62" rx="22" ry="27"/>
+<ellipse cx="78" cy="-30" rx="17" ry="21"/>
+<ellipse cx="102" cy="8" rx="13" ry="16"/>
+</g>
+</defs>
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<rect width="1024" height="1024" fill="url(#gl)"/>
+<g filter="url(#sh)" fill="#FFFFFF">
+<use href="#foot" transform="translate(400 470) rotate(-10) scale(-0.95 0.95)"/>
+<use href="#foot" transform="translate(630 330) rotate(12) scale(0.95)" opacity="0.92"/>
+</g>
+</svg>
